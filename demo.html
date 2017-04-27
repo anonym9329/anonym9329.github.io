@@ -30,16 +30,46 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
 
-This is the accompanying web page for the following paper:<br>
+    This is the accompanying web page for the following paper:<br>
 
-<ul>
-<li>Anonymous<br>
-<strong>Title is ....</strong><br>
-Submitted to ISMIR 2017</a>
-</ul>
-
-        <h2>Demo</h2>
-
+    <div class="container">
+      <div class="page-header">
+        <h1>Function- and Rhythm-Aware Melody Harmonization Based on Tree-Structured Parsing and Split-Merge Sampling of Chord Sequences</h1>
+        <h4>—Submitted to ISMIR 2017</h4>
+      </div>
+      <p class="lead">
+      <p>
+        <h2>DEMO</h2>
+      </p>
+        <h3>Abstract</h3>
+          <p>
+            This paper presents an automatic harmonization method that generates a
+            musically-meaningful chord sequence for a given melody (sequence of musical
+            notes). A standard way is to use hidden Markov models (HMMs) that represent
+            chord transitions on a regular time grid (e.g., bar or beat grid). This
+            approach, however, cannot handle the rhythms, harmonic functions (e.g., tonic,
+            dominant, and subdominant), and hierarchical repetitive structures of chords,
+            which are all important for melody harmonization. To overcome this limitation,
+            we formulate a hierarchical generative model of melodies that consists of (1) a
+            probabilistic context-free grammar (PCFG) for a chord sequence with functions,
+            (2) a metrical Markov model describing chord rhythms, and (3) a Markov model
+            that generates a melody from a chord sequence. To estimate a chord sequence
+            with a variable length and rhythm for a given melody, we iteratively refine the
+            latent tree structure and the labels and durations of chords by using a
+            Metropolis-Hastings sampler with split-merge operations. Experimental results
+            showed that the proposed method outperformed the HMM-based harmonizer in terms
+            of predictive ability and musical appropriateness.
+          </p>
+        <!-- <h3>Demo Movie</h3>
+        <iframe width="1130" height="800" src="https://www.youtube.com/embed/rv64xNa2HUk" frameborder="0" allowfullscreen></iframe>
+        <br>
+        Original URL: <a href="https://youtu.be/rv64xNa2HUk">https://youtu.be/rv64xNa2HUk</a> -->
+        <h3>Sound Source for Experimental Results</h3>
+        <audio preload="auto" controls>
+        <source src="source/guitar_vst_check.wav">
+        </audio>
+      </p>
+    </div>
 
     <!-- FOOTER  -->
 
